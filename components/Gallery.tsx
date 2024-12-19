@@ -15,7 +15,7 @@ export default function Gallery() {
   return (
     <section className="py-20 px-4 bg-gray-100">
       <h2 className="text-4xl font-bold mb-12 text-center text-black">Our Campus</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto ">
         {images.map((src, index) => (
           <motion.div
             key={index}
