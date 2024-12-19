@@ -3,12 +3,12 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 const images = [
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
+  '/image1.jpg?height=300&width=400',
+  '/image2.jpg?height=300&width=400',
+  '/image3.jpg?height=300&width=400',
+  '/image4.jpg?height=300&width=400',
+  '/image5.jpg?height=300&width=400',
+  '/image6.jpg?height=300&width=400',
 ]
 
 export default function Gallery() {
