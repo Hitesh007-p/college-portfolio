@@ -14,7 +14,7 @@ export default function About() {
         <p className="text-xl leading-relaxed text-gray-800">
           Our college is dedicated to providing high-quality education and fostering a vibrant learning environment. 
           With state-of-the-art facilities and experienced faculty, we prepare our students for successful careers and personal growth.
-        </p>
+        </p> 
       </motion.div>
     </section>
   )
