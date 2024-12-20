@@ -7,7 +7,8 @@ const teachers = [
   { name: 'Miss Madhavi Chavhan', subject: 'Information Technology' },
   { name: 'Prof. Rahul Patil', subject: 'Biology' },
   { name: 'Prof. M M Chaudhari', subject: 'Physics' },
-  // { name: 'Prof. P G Kagane', subject: 'Mathematics' },
+  { name: 'Prof. P G Kagane', subject: 'Mathematics' },
+  { name: 'Prof. .....', subject: 'chemistry' },
    
 ]
 
