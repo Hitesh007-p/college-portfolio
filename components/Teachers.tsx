@@ -3,10 +3,12 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 const teachers = [
+  { name: 'Prof. Nilesh Saindane', subject: 'Biology' },
   { name: 'Miss Madhavi Chavhan', subject: 'Information Technology' },
+  { name: 'Prof. Rahul Patil', subject: 'Biology' },
   { name: 'Prof. M M Chaudhari', subject: 'Physics' },
   { name: 'Prof. P G Kagane', subject: 'Mathematics' },
-  { name: 'Prof. Rahul Patil', subject: 'Biology' },
+   
 ]
 
 export default function Teachers() {
