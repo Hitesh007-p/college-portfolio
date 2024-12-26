@@ -6,7 +6,7 @@ import Principal from '@/components/Principal'
 import Teachers from '@/components/Teachers'
 import Achievements from '@/components/Achievements'
 import Events from '@/components/Events'
-import Newsletter from '@/components/Newsletter'
+ 
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
       <Principal />
       <Teachers />
       <Events />
-      <Newsletter />
+       
       <Footer />
     </main>
   )
