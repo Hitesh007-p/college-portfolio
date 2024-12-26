@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
             <p>Near Dhule road</p>
-            <p>Dondaicha 425408</p>
+            <p>Dondaicha maharashtra 425408</p>
             
           </div>
           <div>
