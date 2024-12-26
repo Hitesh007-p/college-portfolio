@@ -4,11 +4,34 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Play, X } from 'lucide-react'
 
 const videos = [
-  { id: 1, title: 'Campus Tour', src: '/placeholder.mp4' },
-  { id: 2, title: 'Student Life', src: '/placeholder.mp4' },
-  { id: 3, title: 'Academic Excellence', src: '/placeholder.mp4' },
-  { id: 4, title: 'Research Highlights', src: '/placeholder.mp4' },
+  {
+    id: 1,
+    title: 'Campus Tour',
+    src: '/videos/reserch.mp4',
+    poster: '/videos/reserch.png',  
+  },
+  {
+    id: 2,
+    title: 'Student Life',
+    src: '/videos/campus.mp4',
+    poster: '/videos/campus.png', 
+  },
+  {
+    id: 3,
+    title: 'Academic Excellence',
+    src: '/videos/acadmic.mp4',
+    poster: '/videos/acadmic.png',  
+  },
+  {
+    id: 4,
+    title: 'Research Highlights',
+    src: '/videos/student_life.mp4',
+    poster: '/videos/student_life.png',  
+  },
 ]
+
+
+
 
 export default function VideoGallery() {
   const [selectedVideo, setSelectedVideo] = useState<number | null>(null)
@@ -30,7 +53,7 @@ export default function VideoGallery() {
                 <video
                   src={video.src}
                   className="w-full h-full object-cover"
-                  poster="/placeholder.svg?height=720&width=1280&text=Video+Thumbnail"
+                  poster={video.poster} // Use the poster from the video object
                 />
               </div>
               <motion.div
@@ -82,4 +105,3 @@ export default function VideoGallery() {
     </section>
   )
 }
-
